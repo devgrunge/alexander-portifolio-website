@@ -13,7 +13,7 @@
   },
   {
     "title": "React native",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react-native.png"
   },
   {
     "title": "Node",
@@ -21,11 +21,11 @@
   },
   {
     "title": "PHP",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/php.png"
   },
   {
     "title": "MySQL",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "skills/mysql.png"
   },
   {
     "title": "MongoDB",
@@ -33,11 +33,11 @@
   },
   {
     "title": "Git",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/git.png"
   },
   {
     "title": "AWS",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/aws.png"
   },
   {
     "title": "Figma",
