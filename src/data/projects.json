@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Rpg Board Assistant",
+    "imageSrc": "projects/project.png",
+    "description": "This is a Node.js application with the goal of reducing work for the players and enhacing the players experience.",
+    "skills": ["React Native","React","Node", "MongoDb"],
+    "demo": "Coming soon...",
+    "source": "https://github.com/devgrunge/ded-companion"
+  },
+  {
+    "title": "Prestashop Api",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made with Node.js created for automate the product insetion process at prestashop.",
+    "skills": ["Node","Express", "Pug", "Jade", "MySQL"],
+    "demo": "Coming soon...",
+    "source": "https://github.com/devgrunge/prestashop-api-nodejs"
+  },
+  {
+    "title": "Module Creation for Prestashop",
+    "imageSrc": "projects/project.png",
+    "description": "This is a couple of projects using Php for creating solutions on Back and Front end features of prestashop.",
+    "skills": ["Symphony", "Jquery", "CSS3", "MySQL"],
+    "demo": "Coming soon...",
+    "source": "https://github.com/devgrunge/instagramCarousel"
+  }
+]

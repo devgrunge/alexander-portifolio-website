@@ -1,0 +1,21 @@
+[
+  {
+    "role": "Frontend Developer",
+    "organisation": "Hes Inovacao",
+    "startDate": "Jun, 2022",
+    "endDate": "Present",
+    "experiences": ["Developed membership, event, and legal platform technology solutions, and automated internal processes",
+     "Implemented web and mobile applications along with 3rd-party software integrations as a web team liaison for all inter-departmental and customerfacing projects.",
+     "Participated in the initial wave of developers learning and implementing the Vue.JS framework and React.JS library."],
+    "imageSrc": "history/hes_inovacao.jpg"
+  },
+  {
+    "role": "Full Stack developer",
+    "organisation": "Azimute Startup",
+    "startDate": "Oct, 2021",
+    "endDate": "Jun, 2022",
+    "experiences": ["Developed code following common security practices and development design patterns",
+     "Led architecture, design, and development of 30+ new features."],
+    "imageSrc": "history/azimute.jpg"
+  }
+]
