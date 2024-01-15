@@ -1,18 +1,17 @@
 import React from "react";
-
-import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import { FormattedMessage } from "react-intl";
+import styles from "./Hero.module.css";
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Alex</h1>
+        <h1 className={styles.title}>
+          <FormattedMessage id="hero.title" />
+        </h1>
         <p className={styles.description}>
-          I'm a quiet person, I like a relaxed atmosphere, but not too much. I
-          love games and technology, dungeons and dragons player. With a lot of
-          perseverance, I've been a developer for 3 years, it's been a
-          sensational experience and I'm learning a lot
+        <FormattedMessage id="hero.description" />
         </p>
         <a href="mailto:alexmarcjr21@gmail.com" className={styles.contactBtn}>
           Contact Me

@@ -1,15 +1,21 @@
 import React, { useState } from "react";
-
+import { FormattedMessage, useIntl } from "react-intl";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const intl = useIntl();
+
+  const changeLanguage = (locale) => {
+    intl.locale = locale;
+    console.log("vars ==>",locale, intl)
+  };
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        Alexander
       </a>
       <div className={styles.menu}>
         <img
@@ -37,6 +43,15 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#about">Contact</a>
+          </li>
+          <li>
+            <button onClick={() => changeLanguage("pt")}>
+              <FormattedMessage id="language.pt" defaultMessage="Pt" />
+            </button>{" "}
+            <span>|</span>
+            <button onClick={() => changeLanguage("en")}>
+              <FormattedMessage id="language.en" defaultMessage="En" />
+            </button>
           </li>
         </ul>
       </div>

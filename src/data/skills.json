@@ -12,12 +12,20 @@
     "imageSrc": "skills/react.png"
   },
   {
+    "title": "Vue",
+    "imageSrc": "skills/vuejs.png"
+  },
+  {
     "title": "React native",
     "imageSrc": "skills/react-native.png"
   },
   {
     "title": "Node",
     "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Typescript",
+    "imageSrc": "skills/typescript.png"
   },
   {
     "title": "PHP",
@@ -38,10 +46,6 @@
   {
     "title": "AWS",
     "imageSrc": "skills/aws.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   }
 ]
  
