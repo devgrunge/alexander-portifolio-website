@@ -14,7 +14,7 @@ export const Hero = () => {
         <FormattedMessage id="hero.description" />
         </p>
         <a href="mailto:alexmarcjr21@gmail.com" className={styles.contactBtn}>
-          Contact Me
+          <FormattedMessage id="hero.contactBtn" />
         </a>
       </div>
       <img

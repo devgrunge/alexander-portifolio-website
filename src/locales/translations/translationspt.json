@@ -1,6 +1,22 @@
 {
   "language.en": "En",
   "language.pt": "Pt",
+  "navbar.about" : "Sobre mim",
+  "navbar.experience" : "Experiência",
+  "navbar.projects" : "Projetos",
+  "navbar.contact" : "Contatos",
   "hero.title": "Olá, eu sou o Alex",
-  "hero.description": "Sou uma pessoa tranquila, gosto de um ambiente descontraído, mas não muito. Eu amo jogos, tecnologia e Dungeons and dragons. Com muita perseverança, sou desenvolvedor há 3 anos, tem sido uma experiência sensacional e estou aprendendo muito"
+  "hero.description": "Sou uma pessoa tranquila, gosto de um ambiente descontraído, mas não muito. Eu amo jogos, tecnologia e Dungeons and dragons. Com muita perseverança, sou desenvolvedor há 3 anos, tem sido uma experiência sensacional e estou aprendendo muito",
+  "hero.contactBtn" : "Contate-me",
+  "about.title" : "Sobre mim",
+  "about.frontendTitle" : "Desenvolvedor front end",
+  "about.frontendDescription" : "Sou um desenvolvedor com experiência em contruir interfaces responsivas e otimizadas",
+  "about.backendTitle" : "Desenvolvedor Backend",
+  "about.backendDescription" : "Tenho experiência em desenvolvimento de sistemas client-side rápids e otimizados, focado na estrutura de microsserviços e Apis",
+  "about.sofSkillTitle" : "Solucionador de problemas",
+  "about.sofSkillDescription" : "Tomei muitas decisões críticas em projetos, participando de todas as etapas desde a pesquisa até o desenvolvimento e entrega",
+  "experience.title" : "Experiência",
+  "projects.title" : "Projetos",
+  "contacts.tite" : "Contactos",
+  "contacts.description" : "Vamos marcar uma reunião? Sinta-se à vontade para entrar em contato!"
 }

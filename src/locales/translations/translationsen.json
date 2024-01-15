@@ -1,6 +1,22 @@
 {
   "language.en": "En",
   "language.pt": "Pt",
+  "navbar.about" : "About",
+  "navbar.experience" : "Experience",
+  "navbar.projects" : "Projetos",
+  "navbar.contact" : "Contacts",
   "hero.title": "Hi, I'm Alex",
-  "hero.description": "I'm a quiet person, I like a relaxed atmosphere, but not too much. I love games and technology, dungeons and dragons player. With a lot of perseverance, I've been a developer for 3 years, it's been a sensational experience and I'm learning a lot"
+  "hero.description": "I'm a quiet person, I like a relaxed atmosphere, but not too much. I love games and technology, dungeons and dragons player. With a lot of perseverance, I've been a developer for 3 years, it's been a sensational experience and I'm learning a lot",
+  "hero.contactBtn" : "Contact Me",
+  "about.title" : "About",
+  "about.frontendTitle" : "Frontend Developer",
+  "about.frontendDescription" : "I'm a frontend developer with experience in building responsive and optimized sites",
+  "about.backendTitle" : "Backend Developer",
+  "about.backendDescription" : "I have experience developing fast and optimised back-end systems and APIs",
+  "about.sofSkillTitle" : "Problem solver",
+  "about.sofSkillDescription" : "I have taken many critical decisions in projects, participating in all steps since the research from the development and delivering",
+  "experience.title" : "Experience",
+  "projects.title" : "Projects",
+  "contacts.tite" : "Contact",
+  "contacts.description" : "Shall we set up a meeting? Feel free to reach out!"
 }

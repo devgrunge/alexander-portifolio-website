@@ -2,11 +2,14 @@ import React from "react";
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import { FormattedMessage } from "react-intl";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>
+        <FormattedMessage id="about.title" />
+      </h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
@@ -17,31 +20,29 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>
+                <FormattedMessage id="about.frontendTitle" />
+              </h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                <FormattedMessage id="about.frontendDescription" />
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3><FormattedMessage id="about.backendTitle" /></h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+               <FormattedMessage id="about.backendDescription"/>
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Problem solver</h3>
+              <h3><FormattedMessage id="about.title" /></h3>
               <p>
-                I have taken many critical decisions in projects, participating
-                in all steps since the research from the development and
-                delivering
+              <FormattedMessage id="about.sofSkillDescription" />
               </p>
             </div>
           </li>

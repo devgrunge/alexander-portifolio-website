@@ -8,7 +8,6 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { changeLanguage } = useLanguage();
 
-
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -30,23 +29,37 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">
+              <FormattedMessage id="navbar.about"/>
+            </a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">
+            <FormattedMessage id="navbar.experience"/>
+              </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">
+            <FormattedMessage id="navbar.experience"/>
+              </a>
           </li>
           <li>
-            <a href="#about">Contact</a>
+            <a href="#about">
+            <FormattedMessage id="navbar.contact"/>
+            </a>
           </li>
           <li>
-            <button onClick={() => changeLanguage("pt")}>
+            <button
+              className={styles.translationbtn}
+              onClick={() => changeLanguage("pt")}
+            >
               <FormattedMessage id="language.pt" defaultMessage="Pt" />
-            </button>{" "}
+            </button>
             <span>|</span>
-            <button onClick={() => changeLanguage("en")}>
+            <button
+              className={styles.translationbtn}
+              onClick={() => changeLanguage("en")}
+            >
               <FormattedMessage id="language.en" defaultMessage="En" />
             </button>
           </li>
