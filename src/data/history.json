@@ -1,21 +1,52 @@
 [
   {
-    "role": "Frontend Developer",
-    "organisation": "Hes Inovacao",
-    "startDate": "Jun, 2022",
-    "endDate": "Present",
-    "experiences": ["Developed membership, event, and legal platform technology solutions, and automated internal processes",
-     "Implemented web and mobile applications along with 3rd-party software integrations as a web team liaison for all inter-departmental and customerfacing projects.",
-     "Participated in the initial wave of developers learning and implementing the Vue.JS framework and React.JS library."],
-    "imageSrc": "history/hes_inovacao.jpg"
+    "en": {
+      "role": "Frontend Developer",
+      "organisation": "Hes Inovacao",
+      "startDate": "Jun, 2022",
+      "endDate": "Present",
+      "experiences": [
+        "Developed membership, event, and legal platform technology solutions, and automated internal processes.",
+        "Implementation and maintenance of web and mobile applications along with 3rd-party software integrations as a web team liaison for all inter-departmental and customer-facing projects.",
+        "Participated in the initial wave of developers learning and implementing the Vue.JS framework and the React.JS library. Optimizing company applications and performance and attracting new projects."
+      ],
+      "imageSrc": "history/hes_inovacao.jpg"
+    },
+    "pt": {
+      "role": "Frontend Developer",
+      "organisation": "Hes Inovacao",
+      "startDate": "Jun, 2022",
+      "endDate": "Presente",
+      "experiences": [
+        "Desenvolvimento de soluções de tecnologia para grandes empresas a nivel nacional, além de automatização processos internos.",
+        "Implementei e manti aplicativos web e móveis junto com integrações de software de terceiros como contato da equipe web para todos os projetos interdepartamentais e voltados para o cliente.",
+        "Participou da onda inicial de desenvolvedores aprendendo e implementando o framework Vue.JS e a biblioteca React.JS. Otimizando os aplicativos e desempenho da empresa e atraindo novos projetos."
+      ],
+      "imageSrc": "history/hes_inovacao.jpg"
+    }
   },
   {
-    "role": "Full Stack developer",
-    "organisation": "Azimute Startup",
-    "startDate": "Oct, 2021",
-    "endDate": "Jun, 2022",
-    "experiences": ["Developed code following common security practices and development design patterns",
-     "Led architecture, design, and development of 30+ new features."],
-    "imageSrc": "history/azimute.jpg"
+    "en": {
+      "role": "Full Stack developer",
+      "organisation": "Azimute Startup",
+      "startDate": "Oct, 2021",
+      "endDate": "Jun, 2022",
+      "experiences": [
+        "Developed code following common security practices and development design patterns",
+        "Led architecture, design, and development of 30+ new features. Generating more than 25% productivity in projects I participated in"
+      ],
+      "imageSrc": "history/azimute.jpg"
+    },
+    "pt": {
+      "role": "Full Stack developer",
+      "organisation": "Azimute Startup",
+      "startDate": "Out, 2021",
+      "endDate": "Jun, 2022",
+      "experiences": [
+        "Desenvolvimento de código seguindo as práticas de segurança e padrões de desenvolvimento",
+        "Liderei arquitetura, design e desenvolvimento de mais de 30 novos recursos. Gerando mais de 25% de produtividade em projetos que participei"
+      ],
+      "imageSrc": "history/azimute.jpg"
+    }
   }
 ]
