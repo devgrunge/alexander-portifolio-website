@@ -30,22 +30,22 @@ export const Navbar = () => {
         >
           <li>
             <a href="#about">
-              <FormattedMessage id="navbar.about"/>
+              <FormattedMessage id="navbar.about" />
             </a>
           </li>
           <li>
             <a href="#experience">
-            <FormattedMessage id="navbar.experience"/>
-              </a>
+              <FormattedMessage id="navbar.experience" />
+            </a>
           </li>
           <li>
             <a href="#projects">
-            <FormattedMessage id="navbar.experience"/>
-              </a>
+              <FormattedMessage id="navbar.projects" />
+            </a>
           </li>
           <li>
             <a href="#about">
-            <FormattedMessage id="navbar.contact"/>
+              <FormattedMessage id="navbar.contact" />
             </a>
           </li>
           <li>
