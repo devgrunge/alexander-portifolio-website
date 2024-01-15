@@ -8,6 +8,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  min-height: 691px;
 }
 
 .image {
@@ -58,4 +59,10 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+  transition: 0.5s ease-in-out;
+}
+
+.link:hover{
+  opacity: 0.9;
+  transform: scale(1.1);
 }

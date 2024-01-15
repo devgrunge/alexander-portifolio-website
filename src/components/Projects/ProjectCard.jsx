@@ -1,11 +1,20 @@
 import React from "react";
-
-import styles from "./ProjectCard.module.css";
+import { FormattedMessage, useIntl } from "react-intl";
 import { getImageUrl } from "../../utils";
+import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project }) => {
+  const intl = useIntl();
+  const { skills, demo, source, description } = project;
+  const currentLanguage = intl.locale;
+  const localizedProject = project[currentLanguage];
+
+  if (!localizedProject) {
+    return null;
+  }
+
+  const { title, imageSrc } = localizedProject;
+
   return (
     <div className={styles.container}>
       <img
@@ -14,24 +23,24 @@ export const ProjectCard = ({
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      <p className={styles.description}>{localizedProject.description}</p>
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
+        {localizedProject.skills.map((skill, id) => (
+          <li key={id} className={styles.skill}>
+            {skill}
+          </li>
+        ))}
       </ul>
       <div className={styles.links}>
-        {
-          demo === "Coming soon..." ? (<></>) : (<a href={demo} className={styles.link}>
-          Demo
-        </a>)
-        }
+        {localizedProject.demo === "Coming soon..." || "Em breve..." ? (
+          <></>
+        ) : (
+          <a href={demo} className={styles.link}>
+            Demo
+          </a>
+        )}
         <a href={source} className={styles.link}>
-          Source
+          <FormattedMessage id="projects.source" />
         </a>
       </div>
     </div>

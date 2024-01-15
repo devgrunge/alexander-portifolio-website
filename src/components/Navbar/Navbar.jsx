@@ -55,7 +55,7 @@ export const Navbar = () => {
             >
               <FormattedMessage id="language.pt" defaultMessage="Pt" />
             </button>
-            <span>|</span>
+            <span className={styles.divider}>|</span>
             <button
               className={styles.translationbtn}
               onClick={() => changeLanguage("en")}

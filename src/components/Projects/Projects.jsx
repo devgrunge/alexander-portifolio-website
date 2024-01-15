@@ -1,10 +1,8 @@
 import React from "react";
-
-import styles from "./Projects.module.css";
-
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 import { FormattedMessage } from "react-intl";
+import styles from "./Projects.module.css";
 
 export const Projects = () => {
   return (
@@ -13,9 +11,10 @@ export const Projects = () => {
         <FormattedMessage id="projects.title" />
       </h2>
       <div className={styles.projects}>
-        {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project} />;
-        })}
+        {Array.isArray(projects) &&
+          projects.map((project, id) => {
+            return <ProjectCard key={id} project={project} />;
+          })}
       </div>
     </section>
   );
