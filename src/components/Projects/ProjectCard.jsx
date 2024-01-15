@@ -39,7 +39,7 @@ export const ProjectCard = ({ project }) => {
             Demo
           </a>
         )}
-        <a href={source} className={styles.link}>
+        <a href={localizedProject.source} className={styles.link}>
           <FormattedMessage id="projects.source" />
         </a>
       </div>
