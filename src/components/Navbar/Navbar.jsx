@@ -44,7 +44,7 @@ export const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#about">
+            <a href="#contact">
               <FormattedMessage id="navbar.contact" />
             </a>
           </li>
