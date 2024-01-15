@@ -40,7 +40,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3><FormattedMessage id="about.title" /></h3>
+              <h3><FormattedMessage id="about.sofSkillTitle" /></h3>
               <p>
               <FormattedMessage id="about.sofSkillDescription" />
               </p>
