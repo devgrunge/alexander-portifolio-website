@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import { FormattedMessage, useIntl } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { useLanguage } from "../../locales";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const intl = useIntl();
+  const { changeLanguage } = useLanguage();
 
-  const changeLanguage = (locale) => {
-    intl.locale = locale;
-    console.log("vars ==>",locale, intl)
-  };
 
   return (
     <nav className={styles.navbar}>

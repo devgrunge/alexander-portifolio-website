@@ -1,3 +1,4 @@
+import { LanguageProvider } from "./locales/index";
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
@@ -8,14 +9,16 @@ import { Projects } from "./components/Projects/Projects";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <LanguageProvider>
+      <div className={styles.App}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
+    </LanguageProvider>
   );
 }
 
