@@ -11,11 +11,6 @@ export const About = () => {
         <FormattedMessage id="about.title" />
       </h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="Cursor icon" />
@@ -31,18 +26,22 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3><FormattedMessage id="about.backendTitle" /></h3>
+              <h3>
+                <FormattedMessage id="about.backendTitle" />
+              </h3>
               <p>
-               <FormattedMessage id="about.backendDescription"/>
+                <FormattedMessage id="about.backendDescription" />
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3><FormattedMessage id="about.sofSkillTitle" /></h3>
+              <h3>
+                <FormattedMessage id="about.sofSkillTitle" />
+              </h3>
               <p>
-              <FormattedMessage id="about.sofSkillDescription" />
+                <FormattedMessage id="about.sofSkillDescription" />
               </p>
             </div>
           </li>

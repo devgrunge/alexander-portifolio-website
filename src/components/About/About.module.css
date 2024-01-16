@@ -36,6 +36,10 @@
   gap: 50px;
 }
 
+.aboutItem:first-child{
+  margin-top: 2rem;
+}
+
 .aboutItem {
   display: flex;
   flex-direction: row;

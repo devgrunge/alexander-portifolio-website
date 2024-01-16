@@ -2,7 +2,7 @@
   {
     "en": {
       "title": "Rpg Board Assistant",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/ded.png",
       "description": "This is a Node.js application with the goal of reducing work for the players and enhancing the players' experience.",
       "skills": ["React Native", "React", "Node", "MongoDb"],
       "demo": "Coming soon...",
@@ -10,7 +10,7 @@
     },
     "pt": {
       "title": "Rpg Board Assistant",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/ded.png",
       "description": "Esta é uma aplicação Node.js com o objetivo de reduzir o trabalho para os jogadores e aprimorar a experiência dos jogadores.",
       "skills": ["React Native", "React", "Node", "MongoDb"],
       "demo": "Em breve...",
@@ -20,7 +20,7 @@
   {
     "en": {
       "title": "Prestashop Api",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/nodejs.png",
       "description": "This is a project made with Node.js created to automate the product insertion process at PrestaShop.",
       "skills": ["Node", "Express", "Pug", "Jade", "MySQL"],
       "demo": "Coming soon...",
@@ -28,7 +28,7 @@
     },
     "pt": {
       "title": "Prestashop Api",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/nodejs.png",
       "description": "Este é um projeto feito com Node.js criado para automatizar o processo de inserção de produtos no PrestaShop.",
       "skills": ["Node", "Express", "Pug", "Jade", "MySQL"],
       "demo": "Em breve...",
@@ -38,7 +38,7 @@
   {
     "en": {
       "title": "Module Creation for Prestashop",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/prestashop.png",
       "description": "This is a couple of projects using PHP for creating solutions on Back and Frontend features of PrestaShop.",
       "skills": ["Symphony", "Jquery", "CSS3", "MySQL"],
       "demo": "Coming soon...",
@@ -46,7 +46,7 @@
     },
     "pt": {
       "title": "Criação de Módulo para o PrestaShop",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/prestashop.png",
       "description": "Este é um conjunto de projetos usando PHP para criar soluções nas características de back-end e front-end do PrestaShop.",
       "skills": ["Symphony", "Jquery", "CSS3", "MySQL"],
       "demo": "Em breve...",

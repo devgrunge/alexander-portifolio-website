@@ -8,10 +8,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 export const Experience = () => {
   const intl = useIntl();
   const currentLanguage = intl.locale;
-  const localizedProjects = history.map(project => project[currentLanguage]);
-
-  console.log("localizedProjects ==>  ", localizedProjects);
-  
+  const localizedProjects = history.map((project) => project[currentLanguage]);
   if (!localizedProjects) {
     return null;
   }
