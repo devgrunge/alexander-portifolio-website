@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import "../../vars.scss";
 
 .container {
   color: var(--color-text);
@@ -51,9 +51,9 @@
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 18px;
   font-family: var(--font-roboto);
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .history {
@@ -61,25 +61,29 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+
 }
 
 .historyItem {
+  background: rgba(25, 55, 109, 0.61);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.1px);
+  -webkit-backdrop-filter: blur(16.1px);
+  border: 1px solid rgba(25, 55, 109, 0.3);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  /* background: #19376d; */
   border-radius: 10px;
   padding: 24px;
 }
 
-.historyItem img{
-  align-self: baseline;
-}
-
 .historyItem img {
+  align-self: baseline;
   width: 50px;
+  border-radius: 0.5rem;
 }
 
 .historyItemDetails {
@@ -99,9 +103,13 @@
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 18px;
   list-style-type: disc;
   margin-left: 17px;
+}
+
+.historyItemDetails ul li span {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 830px) {
