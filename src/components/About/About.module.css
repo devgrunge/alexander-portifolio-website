@@ -96,3 +96,10 @@
     padding-right: 0;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}
